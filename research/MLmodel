@@ -1,0 +1,39 @@
+artifact_path: file:D:/git repos/lab1/mlruns/1/models/m-9d3eb6a2f65e46929109907ba32b7499/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+is_signature_from_type_hint: false
+mlflow_version: 3.4.0
+model_id: m-9d3eb6a2f65e46929109907ba32b7499
+model_size_bytes: 249877
+model_uuid: m-9d3eb6a2f65e46929109907ba32b7499
+prompts: null
+run_id: be20b1f6e6474e7b9f90129d3bc5ec39
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "age", "required": true}, {"type": "double",
+    "name": "sex", "required": true}, {"type": "double", "name": "cp", "required":
+    true}, {"type": "double", "name": "thalach", "required": true}, {"type": "double",
+    "name": "exang", "required": true}, {"type": "double", "name": "oldpeak", "required":
+    true}, {"type": "double", "name": "slope", "required": true}, {"type": "double",
+    "name": "ca", "required": true}, {"type": "double", "name": "thal", "required":
+    true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-10-15 20:27:52.785065'

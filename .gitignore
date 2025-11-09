@@ -5,3 +5,6 @@
 .idea/
 venv/
 *.html
+mlruns/
+catboost_info/
+mlflow/
