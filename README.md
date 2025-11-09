@@ -24,6 +24,10 @@ lab_1iis
 |  |___ graph2.png
 |  |___ ...
 |
+|_____ research # Ноутбук с графики исследований лучшей модели
+|  |___ research.ipynb
+|  |___ ...
+|
 |_____ .gitignore
 |_____ README.md
 |_____ requirements.txt
